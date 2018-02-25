@@ -1,9 +1,13 @@
-# Created by .ignore support plugin (hsz.mobi)
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-.idea
+/src/main/resources/runtime-env/per
+/target
+/.idea
+/plancenter-new.iml
+/src/main/resources/rebel.xml
+/.project
+/.classpath
+/.settings
+/codeTool/output
+codeTool/output
+/*.log
+*.log
 *.iml
-out
-gen
