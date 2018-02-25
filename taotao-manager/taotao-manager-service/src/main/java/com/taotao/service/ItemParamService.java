@@ -1,6 +1,7 @@
 package com.taotao.service;
 
 import com.taotao.common.pojo.TaotaoResult;
+import com.taotao.pojo.TbItemParam;
 
 /**
  * Created by Taoxiao on 2017/7/20 0020.
@@ -8,4 +9,11 @@ import com.taotao.common.pojo.TaotaoResult;
  */
 public interface ItemParamService {
     TaotaoResult getItemParamByCid(long cid);
+
+    /**
+     * 插入一条规格参数
+     * @param itemParam
+     * @return
+     */
+    TaotaoResult insertItemParam(TbItemParam itemParam);
 }

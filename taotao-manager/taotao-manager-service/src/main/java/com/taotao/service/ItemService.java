@@ -14,5 +14,5 @@ public interface ItemService {
     //common中的pojo
     EUDataGridResult getItemList(int page,int rows);
     //添加的商品加入数据库
-    TaotaoResult createItem(TbItem item,String desc) throws Exception;
+    TaotaoResult createItem(TbItem item,String desc,String itemParams) throws Exception;
 }
