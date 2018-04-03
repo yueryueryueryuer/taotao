@@ -11,3 +11,5 @@ codeTool/output
 /*.log
 *.log
 *.iml
+*/target
+*/.idea
