@@ -32,7 +32,6 @@ public class ItemParamItemServiceImpl implements ItemParamItemService {
         if (tbItemParamItems == null || tbItemParamItems.size()==0) {
             return "";
         }
-        new String()
         String paramData = tbItemParamItems.get(0).getParamData();
         //拼接生成html
         List<Map> jsonList = JsonUtils.jsonToList(paramData, Map.class);

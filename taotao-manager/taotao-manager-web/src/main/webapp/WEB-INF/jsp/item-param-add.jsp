@@ -95,7 +95,7 @@
 			var url = "/item/param/save/"+$("#itemParamAddTable [name=cid]").val();
 			$.post(url,{"paramData":JSON.stringify(params)},function(data){
 				if(data.status == 200){
-					$.messager.a lert('提示','新增商品规格成功!',undefined,function(){
+					$.messager.alert('提示','新增商品规格成功!',undefined,function(){
 						$(".panel-tool-close").click();
     					$("#itemParamList").datagrid("reload");
     				});
